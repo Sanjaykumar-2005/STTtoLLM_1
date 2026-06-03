@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Virtual envs
+venv/
+.venv/
+env/
+
+# Secrets / config
+.env
+
+# Outputs & logs
+out/
+*.log
+
+# Local audio samples (don't commit large/binary audio)
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+!samples/*.wav
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
